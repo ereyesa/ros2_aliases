@@ -31,6 +31,5 @@ source install.sh
 | `r2br`           | `ros2 bag record`                                            | Graba datos en un rosbag                          |
 | `r2bi`           | `ros2 bag info`                                              | Muestra información de un rosbag                  |
 | `r2bp <bag>`     | `ros2 bag play <bag>`                                        | Reproduce un archivo rosbag                        |
-| `cds`            | `cd ~/ros2_ws/src`                                           | Cambia al directorio `src` del workspace          |
-| `cdw`            | `cd ~/ros2_ws`                                               | Cambia al directorio raíz del workspace           |
+| `cdros`            | `cd ~/ros2_ws/src`                                           | Cambia al directorio raíz del workspace           |
 | `rosbuild <pkg>` | `colcon build --packages-select <pkg> && source install/setup.bash` | Compila y fuentea un paquete específico          |
